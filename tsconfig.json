@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "#assets/*": ["./src/common/assets/*"],
+      "#contexts/*": ["./src/common/contexts/*"],
+      "#services/*": ["./src/common/services/*"],
+      "#constants/*": ["./src/common/constants/*"],
+      "#styles/*": ["./src/common/styles/*"],
+      "#utils/*": ["./src/common/utils/*"],
+      "#hooks/*": ["./src/common/hooks/*"],
+      "#components/*": ["./src/components/*"]
+    }
+  },
+  "include": ["vite.config.ts", "src/.eslintrc.cjs", "./tailwind.config.js", "src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

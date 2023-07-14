@@ -1,0 +1,15 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import { WebAuthProvider } from '#contexts/WebAuthProvider/index.tsx';
+import '#styles/global.css';
+
+import App from './App.tsx';
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <WebAuthProvider>
+      <App />
+    </WebAuthProvider>
+  </React.StrictMode>
+);

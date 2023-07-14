@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+textarea, input {
+  appearance: none;
+  background-color: white;
+  outline: none
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #323131 !important;
+  -webkit-background-clip: text;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6, p, span, a, label, input {
+    @apply text-neutral-6 font-medium;
+  }
+}
+
+@layer components {
+  .link {
+    @apply cursor-pointer font-semibold text-neutral-6 hover:underline hover:underline-offset-2 hover:text-neutral-6;
+  }
+  .custom-scrollbar::-webkit-scrollbar { 
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track { 
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #E9E7E7;
+    border-radius: 16px;
+  }
+}

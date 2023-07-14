@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="16x16" href="https://devi.sfo3.cdn.digitaloceanspaces.com/login/devi_iblanco.ico" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" sizes="16x16" href="https://devi.sfo3.cdn.digitaloceanspaces.com/login/devi_inegro.ico" media="(prefers-color-scheme: light)" />
+    <title>Iniciar sesión | Devi concept</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <script>
+    try {
+      window.auth0Config = JSON.parse(
+        decodeURIComponent(escape(window.atob('@@config@@')))
+      );
+    } catch (error) {
+      window.auth0Config = error;
+    }
+  </script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

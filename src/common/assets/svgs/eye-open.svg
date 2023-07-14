@@ -1,0 +1,12 @@
+<svg height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <g id="Iconly">
+    <g id="Show">
+      <path id="Stroke 1" fill-rule="evenodd" clip-rule="evenodd"
+        d="M12.6344 10.0443C12.6344 11.4993 11.4544 12.6785 9.9994 12.6785C8.5444 12.6785 7.36523 11.4993 7.36523 10.0443C7.36523 8.58847 8.5444 7.4093 9.9994 7.4093C11.4544 7.4093 12.6344 8.58847 12.6344 10.0443Z"
+        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path id="Stroke 3" fill-rule="evenodd" clip-rule="evenodd"
+        d="M9.99817 16.1291C13.1715 16.1291 16.074 13.8474 17.7082 10.0441C16.074 6.24077 13.1715 3.95911 9.99817 3.95911H10.0015C6.82817 3.95911 3.92567 6.24077 2.2915 10.0441C3.92567 13.8474 6.82817 16.1291 10.0015 16.1291H9.99817Z"
+        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>
