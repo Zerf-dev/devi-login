@@ -76,7 +76,6 @@ export function WebAuthProvider({ children }: PropsWithChildren) {
         password
       },
       err => {
-        // eslint-disable-next-line no-console
         setLoading(undefined);
         if (err) {
           setError(getErrorMessage(err));
